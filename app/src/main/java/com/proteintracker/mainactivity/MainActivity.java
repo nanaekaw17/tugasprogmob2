@@ -36,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
         Button helpBtn = (Button)findViewById(R.id.button2);
         helpBtn.setOnClickListener(helpButtonListener);
 
+        Button LayoutBtn = (Button)findViewById(R.id.button3);
+        LayoutBtn.setOnClickListener(LayoutButtonListener);
+
         if(savedInstanceState != null){
             Log.d("ProteinTracker",savedInstanceState.getString("abc"));
         }
@@ -66,10 +69,20 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             Intent intent = new Intent(MainActivity.this,HelpActivity.class);
+
             Bundle b = new Bundle();
             EditText myEditText = (EditText)findViewById(R.id.editText);
             b.putString("helpString",myEditText.getText().toString());
             intent.putExtras(b);
+            startActivity(intent);
+        }
+    };
+
+    private View.OnClickListener LayoutButtonListener = new View.OnClickListener()
+    {
+        @Override
+        public void onClick(View view) {
+            Intent intent = new Intent(MainActivity.this,Main2Activity.class);
             startActivity(intent);
         }
     };
