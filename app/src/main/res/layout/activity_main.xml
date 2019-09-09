@@ -11,8 +11,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="-121dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="-103dp"
+        android:layout_marginTop="40dp"
         android:layout_toEndOf="@+id/button"
         android:text="Hello World!" />
 
@@ -58,8 +58,21 @@
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/button"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="285dp"
+        android:layout_marginStart="-117dp"
+        android:layout_marginTop="300dp"
         android:text="Layout" />
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="272dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="380dp"
+        android:text="Layout 2" />
+
 </RelativeLayout>
+

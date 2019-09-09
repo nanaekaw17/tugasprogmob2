@@ -11,6 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Main2Activity">
         </activity>
+        <activity android:name=".Main3Activity">
+        </activity>
         <activity android:name=".HelpActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
