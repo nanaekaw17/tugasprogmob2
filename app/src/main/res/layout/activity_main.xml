@@ -6,73 +6,97 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/mainActivityTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="-103dp"
-        android:layout_marginTop="40dp"
-        android:layout_toEndOf="@+id/button"
-        android:text="Hello World!" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="165dp"
-        android:layout_marginTop="159dp"
-        android:text="Button" />
+     <TextView
+         android:id="@+id/mainActivityTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="8dp"
+         android:layout_marginTop="44dp"
+         android:layout_marginEnd="8dp"
+         android:text="Hello World!"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.349"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="27dp"
-        android:layout_marginTop="72dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+     <Button
+         android:id="@+id/button"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="8dp"
+         android:layout_marginTop="48dp"
+         android:layout_marginEnd="8dp"
+         android:text="Button"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.511"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
- <Button
-     android:id="@+id/button2"
-     android:layout_width="wrap_content"
-     android:layout_height="wrap_content"
-     android:layout_alignBottom="@+id/mainActivityTextView"
-     android:layout_alignParentStart="true"
-     android:layout_alignParentTop="true"
-     android:layout_alignParentEnd="true"
-     android:layout_marginStart="166dp"
-     android:layout_marginTop="223dp"
-     android:layout_marginEnd="157dp"
-     android:layout_marginBottom="-216dp"
-     android:text="Help" />
+     <EditText
+         android:id="@+id/editText"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="8dp"
+         android:layout_marginTop="28dp"
+         android:layout_marginEnd="8dp"
+         android:ems="10"
+         android:inputType="textPersonName"
+         android:text="Name"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.137"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/mainActivityTextView" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/button"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="-117dp"
-        android:layout_marginTop="300dp"
-        android:text="Layout" />
+     <Button
+         android:id="@+id/button2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="8dp"
+         android:layout_marginTop="36dp"
+         android:layout_marginEnd="8dp"
+         android:text="Help"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.511"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/button" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="272dp"
-        android:layout_marginEnd="51dp"
-        android:layout_marginBottom="380dp"
-        android:text="Layout 2" />
+     <Button
+         android:id="@+id/button3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="60dp"
+         android:layout_marginTop="44dp"
+         android:text="Layout"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+     <Button
+         android:id="@+id/button4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="44dp"
+         android:layout_marginEnd="60dp"
+         android:text="Layout 2"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+     <Button
+         android:id="@+id/button5"
+         android:layout_width="128dp"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="8dp"
+         android:layout_marginTop="168dp"
+         android:layout_marginEnd="8dp"
+         android:text="Fragment"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.498"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/button2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </RelativeLayout>
 
