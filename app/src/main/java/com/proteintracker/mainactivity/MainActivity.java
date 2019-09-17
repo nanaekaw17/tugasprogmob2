@@ -1,7 +1,5 @@
 package com.proteintracker.mainactivity;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -9,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import static com.proteintracker.mainactivity.R.id.mainActivityTextView;
 
@@ -44,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
 
         Button FragmentBtn = (Button)findViewById(R.id.button5);
         FragmentBtn.setOnClickListener(FragmentButtonListener);
+
+        Button Layout3Btn = (Button)findViewById(R.id.button6);
+        Layout3Btn.setOnClickListener(Layout3ButtonListener);
 
 
         if(savedInstanceState != null){
@@ -107,6 +110,15 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             Intent intent = new Intent(MainActivity.this,Main4Activity.class);
+            startActivity(intent);
+        }
+    };
+
+    private View.OnClickListener Layout3ButtonListener = new View.OnClickListener()
+    {
+        @Override
+        public void onClick(View view) {
+            Intent intent = new Intent(MainActivity.this,MahasiswaActivity.class);
             startActivity(intent);
         }
     };
