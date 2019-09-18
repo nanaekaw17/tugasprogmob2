@@ -91,11 +91,11 @@
          android:layout_width="152dp"
          android:layout_height="50dp"
          android:layout_marginStart="8dp"
-         android:layout_marginTop="132dp"
+         android:layout_marginTop="144dp"
          android:layout_marginEnd="8dp"
          android:text="Fragment"
          app:layout_constraintEnd_toEndOf="parent"
-         app:layout_constraintHorizontal_bias="0.497"
+         app:layout_constraintHorizontal_bias="0.102"
          app:layout_constraintStart_toStartOf="parent"
          app:layout_constraintTop_toBottomOf="@+id/button2" />
 
@@ -104,15 +104,27 @@
          android:layout_width="141dp"
          android:layout_height="46dp"
          android:layout_marginStart="8dp"
-         android:layout_marginTop="8dp"
+         android:layout_marginTop="52dp"
          android:layout_marginEnd="8dp"
-         android:layout_marginBottom="8dp"
          android:text="Mahasiswa"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.507"
+         app:layout_constraintStart_toEndOf="@+id/button5"
+         app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+     <Button
+         android:id="@+id/button7"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="8dp"
+         android:layout_marginBottom="8dp"
+         android:text="List"
          app:layout_constraintBottom_toBottomOf="parent"
          app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.783"
          app:layout_constraintStart_toStartOf="parent"
-         app:layout_constraintTop_toBottomOf="@+id/button5"
-         app:layout_constraintVertical_bias="0.185" />
+         app:layout_constraintTop_toBottomOf="@+id/button6"
+         app:layout_constraintVertical_bias="0.193" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </RelativeLayout>

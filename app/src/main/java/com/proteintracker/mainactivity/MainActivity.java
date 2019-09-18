@@ -48,6 +48,8 @@ public class MainActivity extends AppCompatActivity {
         Button Layout3Btn = (Button)findViewById(R.id.button6);
         Layout3Btn.setOnClickListener(Layout3ButtonListener);
 
+        Button Layout4Btn = (Button)findViewById(R.id.button7);
+        Layout4Btn.setOnClickListener(Layout4ButtonListener);
 
         if(savedInstanceState != null){
             Log.d("ProteinTracker",savedInstanceState.getString("abc"));
@@ -119,6 +121,15 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             Intent intent = new Intent(MainActivity.this,MahasiswaActivity.class);
+            startActivity(intent);
+        }
+    };
+
+    private View.OnClickListener Layout4ButtonListener = new View.OnClickListener()
+    {
+        @Override
+        public void onClick(View view) {
+            Intent intent = new Intent(MainActivity.this,ListActivity.class);
             startActivity(intent);
         }
     };
