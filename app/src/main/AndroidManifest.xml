@@ -10,9 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".UpdateMahasiswa"
+            android:label="@string/title_activity_update_mahasiswa"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".TambahMahasiswa"
+            android:label="@string/title_activity_tambah_mahasiswa"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MahasiswaList"
+            android:label="@string/title_activity_mahasiswa_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".ListActivity"
             android:label="@string/title_activity_list"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MahasiswaActivity"
             android:label="@string/title_activity_mahasiswa"

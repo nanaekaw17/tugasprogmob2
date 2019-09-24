@@ -8,4 +8,7 @@
     <string name="title_activity_main5">Main5Activity</string>
     <string name="title_activity_mahasiswa">MahasiswaActivity</string>
     <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_mahasiswa_list">MahasiswaList</string>
+    <string name="title_activity_tambah_mahasiswa">TambahMahasiswa</string>
+    <string name="title_activity_update_mahasiswa">UpdateMahasiswa</string>
 </resources>

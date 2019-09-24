@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahMahasiswa">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="396dp"
+        android:layout_height="699dp">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Nim  "
+            app:layout_constraintBottom_toTopOf="@+id/textView20"
+            app:layout_constraintEnd_toStartOf="@+id/editText10"
+            app:layout_constraintHorizontal_bias="0.266"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.858" />
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="153dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="56dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            app:layout_constraintBottom_toTopOf="@+id/editText12"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.355"
+            app:layout_constraintStart_toEndOf="@+id/textView5" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="20dp"
+            android:text="Nama"
+            app:layout_constraintBottom_toTopOf="@+id/textView21"
+            app:layout_constraintEnd_toStartOf="@+id/editText12"
+            app:layout_constraintHorizontal_bias="0.545"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <EditText
+            android:id="@+id/editText11"
+            android:layout_width="149dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="60dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            app:layout_constraintBottom_toTopOf="@+id/editText15"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="Tempat Lahir"
+            app:layout_constraintBottom_toTopOf="@+id/textView22"
+            app:layout_constraintEnd_toStartOf="@+id/editText13"
+            app:layout_constraintHorizontal_bias="0.606"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+        <EditText
+            android:id="@+id/editText12"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="60dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            app:layout_constraintBottom_toTopOf="@+id/editText13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+        <EditText
+            android:id="@+id/editText13"
+            android:layout_width="147dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="60dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            app:layout_constraintBottom_toTopOf="@+id/editText14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="Tanggal Lahir"
+            app:layout_constraintBottom_toTopOf="@+id/textView23"
+            app:layout_constraintEnd_toStartOf="@+id/editText14"
+            app:layout_constraintHorizontal_bias="0.58"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <EditText
+            android:id="@+id/editText14"
+            android:layout_width="149dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="60dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            app:layout_constraintBottom_toTopOf="@+id/editText11"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText5" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:text="Agama"
+            app:layout_constraintBottom_toTopOf="@+id/textView24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+        <EditText
+            android:id="@+id/editText15"
+            android:layout_width="145dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="64dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            app:layout_constraintBottom_toTopOf="@+id/editText16"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText6" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:text="Jenis Kelamin"
+            app:layout_constraintBottom_toTopOf="@+id/textView25"
+            app:layout_constraintEnd_toStartOf="@+id/editText15"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+        <EditText
+            android:id="@+id/editText16"
+            android:layout_width="148dp"
+            android:layout_height="33dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            app:layout_constraintBottom_toTopOf="@+id/editText17"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.53"
+            app:layout_constraintStart_toEndOf="@+id/textView25" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginBottom="28dp"
+            android:text="Alamat"
+            app:layout_constraintBottom_toTopOf="@+id/textView26"
+            app:layout_constraintEnd_toStartOf="@+id/editText8"
+            app:layout_constraintHorizontal_bias="0.925"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <EditText
+            android:id="@+id/editText17"
+            android:layout_width="146dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="64dp"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.442" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="372dp"
+            android:text="No Telpon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/editText17"
+            app:layout_constraintHorizontal_bias="0.39"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+        <Button
+            android:id="@+id/btnsimpan2"
+            android:layout_width="87dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="256dp"
+            android:text="Simpan"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.822"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText9"
+            app:layout_constraintVertical_bias="0.169" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
