@@ -11,4 +11,5 @@
     <string name="title_activity_mahasiswa_list">MahasiswaList</string>
     <string name="title_activity_tambah_mahasiswa">TambahMahasiswa</string>
     <string name="title_activity_update_mahasiswa">UpdateMahasiswa</string>
+    <string name="title_activity_listteman_adapter">ListtemanAdapter</string>
 </resources>

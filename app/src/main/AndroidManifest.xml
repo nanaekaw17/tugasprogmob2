@@ -9,12 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".DaftarTemanActivity"></activity>
+        <activity
+            android:name=".Adapter.ListtemanAdapter"
+            android:label="@string/title_activity_listteman_adapter"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".RecycleViewActivity">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".UpdateMahasiswa"
@@ -40,9 +45,7 @@
         <activity android:name=".Main2Activity" />
         <activity android:name=".Main3Activity" />
         <activity android:name=".HelpActivity" />
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
